@@ -207,21 +207,29 @@
 }
 
 .about {
-  display: grid;
+  display: flex;
   grid-template-columns: 430px auto;
-  padding: 0 50px 180px 50px;
-  gap: 25px;
-  justify-items: center;
+  padding: 0 50px 100px 50px;
+  gap: 10px;
+  justify-items: start;
+  align-items: start;
 }
 
 .about_logo {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background-color: #000;
+  justify-content: center
+}
+
+.about_content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
 }
 
 .about_logo-image {
