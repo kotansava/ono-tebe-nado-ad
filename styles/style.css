@@ -82,7 +82,7 @@
 .aligned-text_center {
   text-align: center;
   line-height: 100%;
-  padding: 20px 60px 20px 0;
+  padding: 10px 60px 20px 60px;
 
 
 
@@ -91,6 +91,7 @@
 .aligned-text_right {
   text-align: end;
   line-height: 100%;
+  padding: 10px 60px 20px 60px;
 }
 
 .letter-spacing-extended {
@@ -103,7 +104,7 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 78px;
+  gap: 70px;
 }
 
 .cover_description-text {
@@ -129,7 +130,7 @@
 .lots {
   display: flex;
   flex-direction: column;
-  padding: 180px 50px 181px;
+  padding: 180px 20px 181px;
 }
 
 .lots_heading {
@@ -217,9 +218,8 @@
 
 .about {
   display: grid;
-  grid-template-columns: 430px auto;
-  padding: 0 50px 100px 50px;
-
+  grid-template-columns: 300px auto;
+  padding: 0 20px 100px;
   justify-items: start;
   align-items: start;
   
@@ -235,7 +235,7 @@
   justify-content: center
 }
 
-.about_content{
+.about_content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
