@@ -169,17 +169,17 @@
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  gap: 10px;
+  gap: 50px;
 }
 
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-  gap: 10px;
+  gap: 50px;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  gap: 10px;
+  gap: 50px;
 }
 
 .card_title {
@@ -213,7 +213,7 @@
 .about {
   display: grid;
   grid-template-columns: 280px auto;
-  padding: 0 0px 120px 50px;
+  padding: 0 0px 140px 0px;
   gap: 10px;
   justify-items: start;
   align-items: start;
